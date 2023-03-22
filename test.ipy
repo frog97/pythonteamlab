@@ -1,0 +1,22 @@
+print("enter your name")
+#somebody = input()
+somebody = 123
+print(somebody)
+
+
+colors = [ 'red', 'green', 'blue']
+print("%s %s %s" % (colors[0], colors[1], colors[2]))
+print("{0} {1} {2}".format(colors[0], colors[1], colors[2]))
+
+myage =45
+if myage < 50:
+    print("young")
+elif myage > 60:
+    print("old")
+else:
+    print("too old")
+
+for color in colors:
+    print(color)
+for i in range(0,10):
+    print(i)
